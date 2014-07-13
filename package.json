@@ -1,6 +1,6 @@
 {
   "name": "generator-gbmp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman generator for gulp, browserify, mocha and phantomjs",
   "license": "MIT",
   "main": "app/index.js",
