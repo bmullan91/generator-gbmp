@@ -3,7 +3,10 @@
   "private": true,
   "description": "<%= description %>",
   "version": "0.0.0",
-  "dependencies": {
+  "scripts": {
+    "test": "gulp; ./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/index.html"
+  },
+  "devDependencies": {
     "gulp-browserify": "~0.4.6",
     "gulp": "~3.5.2",
     "mocha-phantomjs": "~3.4.1",
@@ -12,9 +15,6 @@
     "gulp-minify-css": "~0.3.4",
     "gulp-concat": "~2.2.0",
     "gulp-clean": "~0.3.0"
-  },
-  "scripts": {
-    "test": "gulp; ./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/index.html"
   },
   "dependencies": {
     "hogan.js": "~3.0.1"
