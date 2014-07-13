@@ -1,1 +1,3 @@
-# <%= appName %>
+<%= appName %>
+
+Document your app here!
