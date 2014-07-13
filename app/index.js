@@ -27,16 +27,16 @@ var GbmpGenerator = yeoman.generators.Base.extend({
       {
         name: 'appName',
         message: 'What is the name of your webapp?',
-        default: 'yourAppName'
+        default: 'my-app'
       },
       {
         name: 'author',
-        message: 'Author Name: ',
-        default: ''
+        message: 'Author Name:',
+        default: 'Gandalf'
       },
       {
         name: 'description',
-        message: 'Description: ',
+        message: 'Description:',
         default: ''
       }
     ];
