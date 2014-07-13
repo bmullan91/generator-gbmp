@@ -20,7 +20,17 @@ describe('gbmp generator', function () {
   it('creates expected files', function (done) {
     var expected = [
       // add files you expect to exist here.
-      '.jshintrc'
+      '.jshintrc',
+      '.gitignore',
+      '.travis.yml',
+      'gulpfile.js',
+      'index.html',
+      'package.json',
+      'README.md',
+      'css/styles.css',
+      'js/main.js',
+      'test/index.html',
+      'test/tests.js'
     ];
 
     helpers.mockPrompt(this.app, {

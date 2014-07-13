@@ -68,11 +68,11 @@ var GbmpGenerator = yeoman.generators.Base.extend({
   copyFiles: function() {
     var done = this.async();
 
-    this.mkdir('js');
     this.mkdir('img');
 
     this.directory('css');
     this.directory('test');
+    this.directory('js');
 
     this.expandFiles('*', {
       cwd: this.sourceRoot(),
